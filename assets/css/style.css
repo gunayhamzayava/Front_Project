@@ -1,6 +1,5 @@
 /* INFO BAR SECTION START */
 
-
 #info_bar {
     background-color: #A23F25;
     color: #ffffffab;
@@ -59,8 +58,102 @@
 
 #info_bar a {
     color: #ffffffab;
-    text-decoration: none;
 }
 
-
 /* INFO BAR SECTION END */
+
+
+
+
+
+
+/* HEADER SECTION START */
+
+header {
+    padding: 1.5rem 0;
+}
+
+header li {
+    font-size: 1rem;
+}
+
+header button,
+a {
+    color: #fff !important;
+    filter: brightness(70%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 !important;
+}
+
+header h4 {
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+.right-nav a:hover,
+button:hover {
+    color: #A23F25 !important;
+    transition: .5s;
+}
+
+header i {
+    font-size: 1.3rem;
+    cursor: pointer;
+    position: relative;
+    color: #A23F25;
+}
+
+header i>span {
+    position: absolute;
+    top: -.4rem;
+    right: -.4rem;
+    color: #fff;
+    font-size: 12px;
+    padding: .2rem .4rem;
+    background-color: #ffffff41;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* HEADER SECTION END */
+
+
+
+
+
+
+
+/*MAIN SECTION START*/
+
+#section_main {
+    min-height: 40rem;
+    /* padding-top: 1.5rem; */
+    background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(70%);
+    color: #fff !important;
+}
+
+/*MAIN SECTION END*/
