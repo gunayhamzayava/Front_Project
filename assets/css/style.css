@@ -56,8 +56,9 @@
     gap: 1rem;
 }
 
-#info_bar a {
-    color: #ffffffab;
+.login-sign a {
+    color: #ffffff;
+    font-weight: 200;
 }
 
 /* INFO BAR SECTION END */
@@ -201,3 +202,42 @@ header i>span {
 
 
 
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .login-sign {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #info_bar {
+        height: 3rem;
+    }
+
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .num-mail {
+        width: 100%;
+        justify-content: left;
+    }
+
+    .right {
+        width: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
+
+/* @media (max-width: 320px) {
+} */
