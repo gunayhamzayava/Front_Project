@@ -89,6 +89,10 @@ a {
     align-items: center;
 }
 
+.nav-menu {
+    display: none;
+}
+
 header ul {
     display: flex;
     justify-content: center;
@@ -198,6 +202,8 @@ header i>span {
     transition: .5s;
 }
 
+
+
 /*MAIN SECTION END*/
 
 
@@ -210,11 +216,38 @@ header i>span {
         width: 90%;
     }
 
+    .main h1{
+        width: 70%;
+        font-size: 70px;
+    }
+
 }
 
 @media (max-width: 768px) {
     .login-sign {
         font-size: 1rem;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .nav-menu h6 {
+        margin-bottom: 0 !important;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .main h1{
+        width: 60%;
+        font-size: 35px;
+        margin-bottom: 2rem;
     }
 }
 
@@ -238,6 +271,3 @@ header i>span {
         gap: 2rem;
     }
 }
-
-/* @media (max-width: 320px) {
-} */
