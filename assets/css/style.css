@@ -66,7 +66,6 @@
 
 
 
-
 /* HEADER SECTION START */
 
 header {
@@ -103,7 +102,7 @@ header h4 {
 }
 
 .right-nav a:hover,
-button:hover {
+.right-nav button:hover {
     color: #A23F25 !important;
     transition: .5s;
 }
@@ -139,14 +138,10 @@ header i>span {
 
 
 
-
-
-
 /*MAIN SECTION START*/
 
 #section_main {
     min-height: 40rem;
-    /* padding-top: 1.5rem; */
     background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -156,4 +151,53 @@ header i>span {
     color: #fff !important;
 }
 
+.main {
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+
+.main h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main button {
+    font-size: 1rem;
+    border: 0;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 10%;
+}
+
+.main .btn1 {
+    background-color: #A23F25;
+    border: 1px solid #A23F25;
+}
+
+.main .btn2 {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.main-btn .btn2:hover {
+    background-color: #A23F25;
+    border: 1px solid #A23F25;
+    transition: .5s;
+}
+
 /*MAIN SECTION END*/
+
+
+
