@@ -460,9 +460,9 @@ header i>span {
         flex-direction: column;
     }
 
-    /* .hero-img {
+    .hero-img {
         width: 100%;
-    } */
+    }
 
     .highlight {
         flex: 1 1 100%;
