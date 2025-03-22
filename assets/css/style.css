@@ -208,7 +208,7 @@ header i>span {
 /* INFO BOX SECTION START */
 
 #info-boxes {
-    min-height: 16rem;
+    min-height: 10rem;
     background-color: #B7472A;
 }
 
@@ -227,7 +227,7 @@ header i>span {
     gap: 1rem;
     width: 100%;
     height: 100%;
-    padding: 6rem .6rem;
+    padding: 3rem .6rem;
 }
 
 .info-card i {
@@ -241,6 +241,7 @@ header i>span {
 .info-card span {
     font-size: 1rem;
     font-weight: 100;
+    line-height: 2;
 }
 
 .card2 {
@@ -255,6 +256,80 @@ header i>span {
 
 
 
+/* ABOUT SECTION START */
+
+/* .hero{
+    border: 1px solid red;
+} */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    min-height: 34rem;
+    /* margin-top: 3rem;
+    margin-bottom: 3rem; */
+    padding: 6rem 0;
+}
+
+.hero-img {
+    width: 32rem;
+    height: 26rem;
+}
+
+.hero-text {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.hero-text h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.hero-text .since {
+    font-size: 1rem;
+}
+
+.hero-text span {
+    color: #B7472A;
+    font-style: italic;
+}
+
+.hero h5,
+.hero>h5>span {
+    font-size: 30px;
+}
+
+
+
+
+/* ABOUT SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
 
 @media (max-width: 1024px) {
@@ -265,6 +340,17 @@ header i>span {
     .main h1 {
         width: 70%;
         font-size: 70px;
+    }
+    .hero-img{
+        height: 100%;
+    }
+
+    .hero-text{
+        gap: .8rem;
+    }
+
+    .hero-img{
+        height: 30rem;
     }
 
 }
@@ -296,9 +382,13 @@ header i>span {
         margin-bottom: 2rem;
     }
 
-    .info-card{
+    .info-card {
         flex-direction: column;
         align-items: baseline;
+    }
+
+    .hero-img{
+        height: 36rem;
     }
 }
 
@@ -322,7 +412,11 @@ header i>span {
         gap: 2rem;
     }
 
-    .info-cards{
+    .info-cards {
+        flex-direction: column;
+    }
+
+    .hero{
         flex-direction: column;
     }
 }
