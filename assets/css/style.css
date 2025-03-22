@@ -419,4 +419,7 @@ header i>span {
     .hero{
         flex-direction: column;
     }
+    .hero-img{
+        width: 100%;
+    }
 }
