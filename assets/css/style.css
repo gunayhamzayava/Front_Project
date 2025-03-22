@@ -342,8 +342,8 @@ header i>span {
 
 
 .highl-img {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     outline: 1px solid #850202;
     outline-offset: 10px;
@@ -375,18 +375,18 @@ header i>span {
         font-size: 70px;
     }
 
-    /* .hero-img {
+    .hero-img {
         height: 100%;
-    } */
+    }
 
     .hero-text {
         gap: .8rem;
     }
 
-    /* 
+    
     .hero-img {
         height: 30rem;
-    } */
+    }
 
 }
 
@@ -422,9 +422,9 @@ header i>span {
         align-items: baseline;
     }
 
-    /* .hero-img {
+    .hero-img {
         height: 36rem;
-    } */
+    }
 
     .highlights {
         flex-wrap: wrap;
