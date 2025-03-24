@@ -762,6 +762,10 @@ footer {
 
 /* FOOTER SECTION END */
 
+
+
+/* İNFO FOOTER SECTİON START */
+
 #info-footer {
     background-color: #000;
     padding: 2.7rem 0;
@@ -774,7 +778,6 @@ footer {
     font-size: 1rem;
 }
 
-/* İNFO FOOTER SECTİON START */
 
 
 
@@ -988,8 +991,8 @@ footer {
 
 
     .blog-img {
-        width: 250px;
-        height: 250px;
+        width: 180px;
+        height: 200px;
     }
 
     .blog-text h4 {
