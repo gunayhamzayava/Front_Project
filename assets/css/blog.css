@@ -1,0 +1,185 @@
+/*MAIN SECTION START*/
+
+#section_main {
+    background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(75%);
+    color: #fff !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+}
+
+
+.main h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 15px;
+}
+
+/*MAIN SECTION END*/
+
+
+/* BLOG SECTION START */
+
+#blog-area {
+    min-height: 30rem;
+}
+
+.blogs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+
+.blog-img {
+    width: 250px;
+    height: 320px;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.blog-content span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7472a;
+    font-style: italic;
+}
+
+.blog-boxes {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #F5F4F0;
+}
+
+
+.blog-text {
+    width: 260px;
+    height: 100%;
+    padding-right: 1rem;
+
+}
+
+.blog-text h4 {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.blog-text h4:hover {
+    color: #A23F25;
+    transition: .5s;
+}
+
+.blog-text span {
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+
+.blog-text p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(141, 141, 141);
+    margin-top: 1rem;
+}
+
+.blog-text button {
+    border: 0;
+    color: #B7472A;
+    font-size: 14px;
+    border-radius: 3px;
+    font-style: italic;
+    background-color: transparent;
+}
+
+.blog-text i {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pagination ul{
+    display: flex;
+    gap: .6rem;
+}
+
+.pagination ul li{
+    list-style: none;
+    cursor: pointer;
+    padding: .6rem 1rem;
+    border-radius: 50%;
+    font-size: .8rem;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.pagination li a{
+    color: #b7472a !important;
+}
+
+.one{
+    background-color: #b7472a;
+    border: 0;
+}
+
+.pagination .one a{
+    color: #fff !important;
+}
+
+/* BLOG SECTION END */
