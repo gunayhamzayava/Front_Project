@@ -611,6 +611,10 @@ footer {
         padding: 2.5rem 0 !important;
     }
 
+    .pagination ul {
+        padding: 0 !important;
+    }
+
     #blog-details {
         width: 100% !important;
     }
