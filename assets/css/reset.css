@@ -176,6 +176,8 @@ header i>span {
 
 
 
+
+
 /* FOOTER SECTION START */
 
 footer {
@@ -439,6 +441,14 @@ footer {
         width: 200px !important;
         height: 300px !important;
     }
+
+    .sing-prod{
+        flex-direction: column;
+    }
+
+    .sing-prod-left{
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -480,7 +490,6 @@ footer {
     .highlights {
         gap: 3rem;
     }
-
 
     .product-images-cont {
         width: 100%;
@@ -574,5 +583,7 @@ footer {
     .blogsingle-box {
         flex-direction: column;
     }
+
+    .desc-buttons{}
 
 }
