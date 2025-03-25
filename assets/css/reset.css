@@ -584,6 +584,12 @@ footer {
         flex-direction: column;
     }
 
-    .desc-buttons{}
+    .desc-buttons{
+        flex-direction: column;
+    }
+
+    .sing-prod-left {
+        height: 600px !important;
+    }
 
 }
