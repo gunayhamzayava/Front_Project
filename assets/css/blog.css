@@ -25,12 +25,24 @@
     margin-bottom: 3rem;
 }
 
+
 .main-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
     font-size: 15px;
+}
+
+.main-btn span>a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.main-btn span>a:hover{
+    color: #A23F25 !important;
+    transition: .5s;
 }
 
 /*MAIN SECTION END*/

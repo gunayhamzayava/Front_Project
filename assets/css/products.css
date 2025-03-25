@@ -25,12 +25,24 @@
     margin-bottom: 3rem;
 }
 
+
 .main-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
     font-size: 15px;
+}
+
+.main-btn span>a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.main-btn span>a:hover{
+    color: #A23F25 !important;
+    transition: .5s;
 }
 
 /*MAIN SECTION END*/
@@ -47,6 +59,7 @@
 .all-products {
     display: flex;
     gap: 3rem;
+    padding: 0;
 }
 
 .right-prod-sec {
@@ -175,7 +188,7 @@
     height: 100%;
     width: 75%;
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
     /* justify-content: center; */
     flex-direction: column;
     gap: 1rem;
