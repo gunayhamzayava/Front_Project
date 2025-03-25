@@ -437,16 +437,49 @@ footer {
         width: 100% !important;
     }
 
-    .prod-img{
+    .prod-img {
         width: 200px !important;
         height: 300px !important;
     }
 
-    .sing-prod{
+    .sing-prod {
         flex-direction: column;
     }
 
-    .sing-prod-left{
+    .sing-prod-left {
+        width: 100% !important;
+    }
+
+    .social-contact {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .map {
+        width: 100% !important;
+        max-width: none;
+    }
+
+    .contact-form-img {
+        width: 100% !important;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cont-img{
+        width: 100% !important;
+        height: 400px;
+    }
+
+    .cont-name-email {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-form form {
+        width: 100% !important;
+    }
+    .contact-form button{
         width: 100% !important;
     }
 }
@@ -491,9 +524,10 @@ footer {
         gap: 3rem;
     }
 
-    .all-products{
+    .all-products {
         width: 100% !important;
     }
+
     .product-images-cont {
         width: 100% !important;
         flex-direction: column;
@@ -528,12 +562,12 @@ footer {
         height: 200px;
     }
 
-    .blog-box{
+    .blog-box {
         flex-direction: column;
         padding-bottom: 1rem;
     }
 
-    .images-blog{
+    .images-blog {
         width: 100% !important;
     }
 
@@ -561,6 +595,10 @@ footer {
 
     .products {
         width: 100% !important;
+    }
+
+    .products button{
+        padding: 0.5rem 3rem !important; 
     }
 
     .prod-left-text {
@@ -596,7 +634,7 @@ footer {
         flex-direction: column;
     }
 
-    .desc-buttons{
+    .desc-buttons {
         flex-direction: column;
     }
 
@@ -604,12 +642,29 @@ footer {
         height: 600px !important;
     }
 
-    .left-george{
+    .left-george {
         flex-direction: column;
     }
 
-    .products button{
+    .products button {
         font-size: 10px !important;
+    }
+
+    .contact{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .contact-form {
+        padding-bottom: 2rem !important;
+    }
+
+    .contact-form-img{
+        margin-bottom: 0 !important;
+    }
+
+    #contact-area {
+        padding-bottom: 0 !important;
     }
 
 }

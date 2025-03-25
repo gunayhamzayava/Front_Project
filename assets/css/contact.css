@@ -1,0 +1,181 @@
+/*MAIN SECTION START*/
+
+#section_main {
+    background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(75%);
+    color: #fff !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+}
+
+
+.main h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 15px;
+}
+
+.main-btn span>a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.main-btn span>a:hover {
+    color: #A23F25 !important;
+    transition: .5s;
+}
+
+/*MAIN SECTION END*/
+
+
+
+#contact-area {
+    padding-top: 5rem;
+    padding: 2rem 0;
+    background-color: #f5F4F0;
+}
+
+.social-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#contact-area .container {
+    width: 70%;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.soc2 span {
+    color: #b7472a;
+}
+
+.soc1 span {
+    color: gray !important;
+}
+
+.map i {
+    font-size: 25px;
+    color: #fff;
+    background-color: #b7472a;
+    min-width: 90px;
+    min-height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.cont-img {
+    width: 450px;
+    height: 550px;
+    width: 43%;
+}
+
+
+.contact-form-img {
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    background-color: #fff;
+
+}
+
+.contact-form form {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.contact-form input {
+    padding: .7rem 0;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid #d8d8d8;
+    outline: none;
+    background-color: transparent;
+}
+
+.contact-form input::placeholder {
+    font-size: 13px;
+}
+
+.sub input {
+    width: 100% !important;
+}
+
+.contact-form textarea {
+    border-bottom: 1px solid #d8d8d8 !important;
+    padding: 1rem 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: #b7472a;
+    font-size: 13.5px;
+}
+
+.cont-name-email {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-form button {
+    width: 30%;
+    padding: .5rem 1rem;
+    background-color: #b7472a;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-bottom: 1px solid #A23F25 !important;
+    transition: .5s !important;
+}
