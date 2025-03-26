@@ -112,7 +112,7 @@ header li {
 }
 
 header button,
-a {
+header a {
     color: #fff !important;
     filter: brightness(70%);
 }
@@ -184,6 +184,11 @@ footer {
     background-color: #1A1A1A;
     color: #fff;
     padding: 3rem 0;
+}
+
+footer a {
+    color: #fff;
+    filter: brightness(75%);
 }
 
 .home-footer {
@@ -276,6 +281,11 @@ footer {
 
 }
 
+#info-footer a{
+    color: #fff;
+    filter: brightness(75%);
+}
+
 .info-footer {
     color: #ffffff41;
     text-align: left;
@@ -337,6 +347,7 @@ footer {
     .blog-box {
         width: 400px;
     }
+
     .cart-totals {
         margin-left: 0 !important;
     }
@@ -520,7 +531,7 @@ footer {
         flex-direction: column;
     }
 
-    .main h1{
+    .main h1 {
         font-size: 45px !important;
     }
 
@@ -687,12 +698,12 @@ footer {
         margin-left: 0 !important;
     }
 
-    .tables-cart{
+    .tables-cart {
         width: 100% !important;
     }
 
     .tables table {
-        width: 100%; 
+        width: 100%;
         min-width: unset;
     }
 

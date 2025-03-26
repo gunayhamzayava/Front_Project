@@ -18,6 +18,9 @@
     margin-top: 10rem;
 }
 
+.main-btn a {
+    color: #fff;
+}
 
 .main h1 {
     font-size: 60px;
@@ -40,7 +43,7 @@
     align-items: center;
 }
 
-.main-btn span>a:hover{
+.main-btn span>a:hover {
     color: #A23F25 !important;
     transition: .5s;
 }
@@ -140,7 +143,7 @@
     cursor: pointer;
 }
 
-.blog-content h5:hover{
+.blog-content h5:hover {
     color: #b7472a;
     transition: .5s;
 }
@@ -270,7 +273,7 @@
 }
 
 
-.pagination{
+.pagination {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -278,12 +281,12 @@
     margin-top: 2rem;
 }
 
-.pagination ul{
+.pagination ul {
     display: flex;
     gap: .6rem;
 }
 
-.pagination ul li{
+.pagination ul li {
     list-style: none;
     cursor: pointer;
     padding: .6rem 1rem;
@@ -292,16 +295,16 @@
     border: 1px solid rgb(175, 175, 175);
 }
 
-.pagination li a{
+.pagination li a {
     color: #b7472a !important;
 }
 
-.one{
+.one {
     background-color: #b7472a;
     border: 0;
 }
 
-.pagination .one a{
+.pagination .one a {
     color: #fff !important;
 }
 

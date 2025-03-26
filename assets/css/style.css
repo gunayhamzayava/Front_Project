@@ -177,6 +177,10 @@ header i>span {
     gap: 1rem;
 }
 
+.main-btn a {
+    color: #fff;
+}
+
 .main button {
     font-size: 1rem;
     border: 0;

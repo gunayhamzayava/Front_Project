@@ -18,6 +18,9 @@
     margin-top: 10rem;
 }
 
+.main-btn a {
+    color: #fff;
+}
 
 .main h1 {
     font-size: 60px;
@@ -51,12 +54,12 @@
     height: 80px;
 }
 
-.tables{
+.tables {
     width: 100%;
     overflow-x: auto;
 }
 
-.tables-cart{
+.tables-cart {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -66,11 +69,11 @@
     width: 100%;
     margin-bottom: 2rem;
     margin-top: 4rem;
-    width: 1000px; 
+    width: 1000px;
     border-collapse: collapse;
 }
 
-.tables th td{
+.tables th td {
     white-space: nowrap;
 }
 
@@ -128,20 +131,20 @@
 
 
 input[type="checkbox"] {
-    accent-color: #A34A2F; 
+    accent-color: #A34A2F;
     transform: scale(1.3)
 }
 
 
 
-.cart-totals{
+.cart-totals {
     display: flex;
     flex-direction: column;
     margin: 4rem 0;
     min-width: 400px;
 }
 
-.cart-totals-left{
+.cart-totals-left {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -151,41 +154,41 @@ input[type="checkbox"] {
     border: 1px solid #e7e7e7;
 }
 
-.cart-totals-left-info{
+.cart-totals-left-info {
     display: flex;
     justify-content: space-between;
 }
 
 
-.cart-totals-left-info span{
+.cart-totals-left-info span {
     color: gray;
     font-size: 12px;
 }
 
-.cart-totals-left-info p{
+.cart-totals-left-info p {
     color: gray;
 }
 
-.cart-totals-right{
+.cart-totals-right {
     display: flex;
     flex-direction: column;
 }
 
-.cart-totals-right button{
+.cart-totals-right button {
     padding: 1rem 2rem;
     background: #b7472a;
     color: white;
     border: none;
-    border-radius:3px;
+    border-radius: 3px;
     font-size: 15px;
     cursor: pointer;
 }
 
-.info-border{
+.info-border {
     border-bottom: 1px solid #e7e7e7;
     padding-bottom: 1rem;
 }
 
-.total{
+.total {
     color: #000 !important;
 }

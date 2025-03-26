@@ -1,0 +1,155 @@
+/*MAIN SECTION START*/
+
+#section_main {
+    background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(75%);
+    color: #fff !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+}
+
+
+.main h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 15px;
+}
+
+.main-btn a {
+    color: #fff;
+}
+
+.main-btn span>a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.main-btn span>a:hover {
+    color: #A23F25 !important;
+    transition: .5s;
+}
+
+/*MAIN SECTION END*/
+
+
+#signUp-area {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e5e5e58a;
+}
+
+
+
+.signup-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    margin: 2rem;
+    width: 500px;
+}
+
+.signup-cart input {
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+.signup-cart input::placeholder {
+    color: #A23F25;
+    font-size: 13px;
+}
+
+
+.signup-cart button {
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #A23F25;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-cart button:hover {
+    background-color: #fff;
+    color: #A23F25;
+    transition: .5s;
+    color: #000;
+}
+
+.signup-cart p {
+    font-size: 15.5px;
+    text-align: center;
+
+}
+
+.signup-cart p>a {
+    color: #a3a2a2;
+}
+
+.signup-cart p>a:hover {
+    color: #A23F25 !important;
+    transition: .5s;
+}
+
+.or {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.or-hr {
+    width: 150px;
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+.or span {
+    font-size: large;
+}
+
+.face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+.face i {
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
