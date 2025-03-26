@@ -710,5 +710,8 @@ footer a {
     .sing-prod-btn{
         width: 100% !important;
     }
+    .main-btn{
+        font-size: 12px;
+    }
 
 }
