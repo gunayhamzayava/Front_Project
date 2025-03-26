@@ -707,4 +707,8 @@ footer a {
         min-width: unset;
     }
 
+    .sing-prod-btn{
+        width: 100% !important;
+    }
+
 }
