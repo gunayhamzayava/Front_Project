@@ -1,0 +1,191 @@
+/*MAIN SECTION START*/
+
+#section_main {
+    background-image: url("https://preview.colorlib.com/theme/liquorstore/images/bg_2.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(75%);
+    color: #fff !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 10rem;
+}
+
+
+.main h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 15px;
+}
+
+.main-btn span>a {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.main-btn span>a:hover {
+    color: #A23F25 !important;
+    transition: .5s;
+}
+
+/*MAIN SECTION END*/
+
+.product-table-img {
+    width: 80px;
+    height: 80px;
+}
+
+.tables{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tables-cart{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.tables table {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    width: 1000px; 
+    border-collapse: collapse;
+}
+
+.tables th td{
+    white-space: nowrap;
+}
+
+.tables thead {
+    background: #b7472a;
+    border-radius: 4px;
+}
+
+.tables thead th {
+    border: none;
+    padding: 1.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.tables tbody td {
+    padding: 2rem;
+    padding-bottom: 1rem !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tables .product-table-info p {
+    font-size: 14px;
+    color: gray;
+}
+
+.tables .product-table-info h5 {
+    font-size: 16px;
+}
+
+.total {
+    color: gray;
+}
+
+.tables input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.tables input[type="text"] {
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.mark-i i {
+    color: #b7472a;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+
+input[type="checkbox"] {
+    accent-color: #A34A2F; 
+    transform: scale(1.3)
+}
+
+
+
+.cart-totals{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+    min-width: 400px;
+}
+
+.cart-totals-left{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    gap: .6rem;
+    padding: 1.2rem;
+    border: 1px solid #e7e7e7;
+}
+
+.cart-totals-left-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart-totals-left-info span{
+    color: gray;
+    font-size: 12px;
+}
+
+.cart-totals-left-info p{
+    color: gray;
+}
+
+.cart-totals-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-totals-right button{
+    padding: 1rem 2rem;
+    background: #b7472a;
+    color: white;
+    border: none;
+    border-radius:3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.info-border{
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 1rem;
+}
+
+.total{
+    color: #000 !important;
+}

@@ -337,6 +337,9 @@ footer {
     .blog-box {
         width: 400px;
     }
+    .cart-totals {
+        margin-left: 0 !important;
+    }
 
 }
 
@@ -466,7 +469,7 @@ footer {
         gap: 2rem;
     }
 
-    .cont-img{
+    .cont-img {
         width: 100% !important;
         height: 400px;
     }
@@ -479,8 +482,13 @@ footer {
     .contact-form form {
         width: 100% !important;
     }
-    .contact-form button{
+
+    .contact-form button {
         width: 100% !important;
+    }
+
+    .cart-totals {
+        margin-left: 0 !important;
     }
 }
 
@@ -510,6 +518,10 @@ footer {
 
     .hero {
         flex-direction: column;
+    }
+
+    .main h1{
+        font-size: 45px !important;
     }
 
     .hero-img {
@@ -597,8 +609,8 @@ footer {
         width: 100% !important;
     }
 
-    .products button{
-        padding: 0.5rem 3rem !important; 
+    .products button {
+        padding: 0.5rem 3rem !important;
     }
 
     .prod-left-text {
@@ -654,7 +666,7 @@ footer {
         font-size: 10px !important;
     }
 
-    .contact{
+    .contact {
         margin: 0 !important;
         width: 100% !important;
     }
@@ -663,12 +675,25 @@ footer {
         padding-bottom: 2rem !important;
     }
 
-    .contact-form-img{
+    .contact-form-img {
         margin-bottom: 0 !important;
     }
 
     #contact-area {
         padding-bottom: 0 !important;
+    }
+
+    .cart-totals {
+        margin-left: 0 !important;
+    }
+
+    .tables-cart{
+        width: 100% !important;
+    }
+
+    .tables table {
+        width: 100%; 
+        min-width: unset;
     }
 
 }
